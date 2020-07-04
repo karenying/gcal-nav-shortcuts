@@ -5,7 +5,7 @@ The default shortcuts are:
 - ⌥ (Alt) + ←: go back in time
 - ⌥ (Alt) + →: go forward in time
 
-These keys can be changed by visiting chrome://extensions/shortcuts in the address bar:
+These keys can be changed by visiting "chrome://extensions/shortcuts" in the address bar:
 ![](./src/assets/extension_shortcut.png)
 
 ## Installation
