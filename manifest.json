@@ -1,5 +1,5 @@
 {
-    "name": "Google Calendar Arrow Navigation",
+    "name": "Google Calendar Navigation Shortcuts",
     "version": "1.0",
     "icons": {
         "16": "icon.png",
@@ -34,6 +34,9 @@
             "description": "Navigate Right"
         }
     },
-    "manifest_version": 2,
-    "web_accessible_resources": ["script.js"]
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
 }
