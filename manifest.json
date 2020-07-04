@@ -1,0 +1,39 @@
+{
+    "name": "Google Calendar Arrow Navigation",
+    "version": "1.0",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "description": "Add arrow navigation to Google Calendar",
+    "permissions": ["tabs", "*://calendar.google.com/*"],
+    "content_scripts": [
+        {
+            "matches": ["https://calendar.google.com/*"],
+            "js": ["contentScript.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "commands": {
+        "navigate-left": {
+            "suggested_key": {
+                "default": "Alt+Left",
+                "mac": "Alt+Left"
+            },
+            "description": "Navigate Left"
+        },
+        "navigate-right": {
+            "suggested_key": {
+                "default": "Alt+Right",
+                "mac": "Alt+Right"
+            },
+            "description": "Navigate Right"
+        }
+    },
+    "manifest_version": 2,
+    "web_accessible_resources": ["script.js"]
+}
