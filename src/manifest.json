@@ -7,7 +7,7 @@
         "128": "assets/icon.png"
     },
     "description": "Add arrow navigation to Google Calendar",
-    "permissions": ["tabs", "*://calendar.google.com/*"],
+    "permissions": ["https://calendar.google.com/*"],
     "content_scripts": [
         {
             "matches": ["https://calendar.google.com/*"],
