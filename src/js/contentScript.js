@@ -6,8 +6,8 @@ if (container) {
     const leftArrow = containerChildren[1];
     const rightArrow = containerChildren[2];
 
-    chrome.runtime.onMessage.addListener(function (request) {
-        const { direction } = request;
+    chrome.runtime.onMessage.addListener(function (message) {
+        const { direction } = message;
         direction === 'left' ? leftArrow.click() : rightArrow.click();
     });
 }
