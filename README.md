@@ -1,5 +1,5 @@
 # Google Calendar Nagivation Shortcuts
-This chrome extension allows for the navigation of Google Calendar with keyboard shortcuts.
+This chrome extension allows for the navigation of Google Calendar with keyboard shortcuts. The tutorial corresponding with this repo can be found [here](https://codeburst.io/hack-keyboard-shortcuts-into-sites-with-a-custom-chrome-extension-35e884526980?source=friends_link&sk=53d9c12626dd9e59e4e886ddeed19e84).
 
 The default shortcuts are:
 - ⌥ (Alt) + ←: go back in time
